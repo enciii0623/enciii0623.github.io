@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>林恩慈</title>
+    <meta
+      name="description"
+      content="林恩慈，中国矿业大学（北京）计算机科学与技术专业2023级本科生个人主页。"
+    >
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="#top">林恩慈</a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#about">关于我</a>
+        <a href="#projects">项目经历</a>
+        <a href="#interests">学习方向</a>
+        <a href="#contact">联系方式</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-graph" aria-hidden="true">
+          <img src="assets/images/graphiti-graph-intro.gif" alt="">
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Personal Homepage</p>
+          <h1 id="hero-title">林恩慈</h1>
+          <p class="hero-text">
+            中国矿业大学（北京）计算机科学与技术专业2023级本科生，关注知识图谱记忆、计算机视觉等方向
+          </p>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-title">
+          <span>01</span>
+          <h2 id="about-title">关于我</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            我目前围绕知识图谱、检索增强生成、计算机视觉等方向开展学习与科研训练，
+            关注模型在真实任务中的效果评估与优化，并在项目实践中提升问题分析、实验设计和工程实现能力。
+          </p>
+          <ul class="about-list">
+            <li>具备较扎实的编程与算法基础，熟悉 Python、C/C++ 及 Java 语言的编写。</li>
+            <li>性格开朗，善于沟通表达，具有学生工作与社会实践经历，具备一定的组织协调能力。</li>
+            <li>面对较高难度任务时能够保持稳定投入，愿意快速学习专业知识，并尝试将其应用到科研项目中。</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-title">
+          <span>02</span>
+          <h2 id="projects-title">项目经历</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card project-card-primary">
+            <div class="project-meta">
+              <span>完整项目</span>
+            </div>
+            <h3>库存管理系统（数据结构课程设计）</h3>
+            <p>
+              基于 C/C++ 实现的控制台仓库管理系统，支持货物入库、出库、查询、供应商管理与报表生成。
+              系统使用文件持久化保存数据，结合自动编码、批量出库和库存状态更新等功能，支持万级真实仓库数据的读写与管理。
+            </p>
+            <a class="project-link" href="https://github.com/enciii0623/warehouse-management-system" target="_blank" rel="noreferrer">
+              查看项目代码
+            </a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>进行中</span>
+            </div>
+            <h3>Graphiti 长对话记忆问答中的 Recipe 优化研究</h3>
+            <p>
+              针对用户问题，Graphiti 通过过滤、搜索与重排序组成的 recipe 返回 evidence，并交由 LLM 生成 answer。
+              项目基于 LoCoMo 数据集，分析 evidence 召回质量、回答准确率与检索时延，优化 recipe 配置。
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>进行中</span>
+            </div>
+            <h3>煤矿井下多目标检测算法优化（大创项目）</h3>
+            <p>
+              面向煤矿井下光照不足、巷道狭窄、目标遮挡和小目标密集等复杂场景，基于 YOLOv8 开展障碍物检测算法优化研究。
+              通过消融实验比较不同损失函数的影响，采用 WIoU 替代 CIoU 后，模型 mAP 从 74.1% 提升至 76.4%。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section interests-section" id="interests" aria-labelledby="interests-title">
+        <div class="section-title">
+          <span>03</span>
+          <h2 id="interests-title">学习方向</h2>
+        </div>
+        <div class="interest-list">
+          <span>Agent Memory</span>
+          <span>知识图谱与检索增强生成</span>
+          <span>计算机视觉与目标检测</span>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="section-title">
+          <span>04</span>
+          <h2 id="contact-title">联系方式</h2>
+        </div>
+        <div class="section-body">
+          <a class="email-link" href="mailto:2310410202@student.cumtb.edu.cn">
+            2310410202@student.cumtb.edu.cn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      林恩慈
+    </footer>
+  </body>
+</html>
