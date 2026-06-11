@@ -78,10 +78,10 @@
             <div class="project-meta">
               <span>进行中</span>
             </div>
-            <h3>Graphiti 长对话记忆问答中的检索策略优化研究</h3>
+            <h3>Graphiti长对话记忆问答中的检索策略优化研究</h3>
             <p>
-              基于 Graphiti 知识图谱框架和 LoCoMo 数据集，复现长对话记忆问答中的 evidence 检索与回答生成流程。
-              围绕不同类型记忆问题的检索失败案例，分析固定 search recipe 在细粒度事实召回、相似事件区分和相对时间锚定等方面的局限，并尝试基于问题类型和问题意图调整 search function、reranker、episode context 与过滤策略，比较不同检索配置对 evidence 质量、回答准确率和检索时延的影响。
+              针对用户提出的长对话记忆问题，Graphiti通过过滤、搜索与重排序组成的search recipe检索相关evidence，并交由LLM生成answer。
+              项目基于LoCoMo数据集，分析在不同问题类型下baseline检索策略的检索失败案例，探索面向问题类型的自适应recipe，以提升evidence召回质量及LLM回答准确率。
             </p>
           </article>
 
